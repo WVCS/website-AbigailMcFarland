@@ -14,6 +14,21 @@ img:hover {
 	border: 25px dotted #F8F799;
 }
 nav {
-	width: 50%;
-	position: fixed;
+	font-size: 50px;
+	font-family:"Cedarville Cursive";
+	text-decoration-color: #000000;
+}
+nav a {
+	text-decoration: none;
+	padding: 9px 30px;
+	font-family: "Cedarville Cursive";
+}
+/*Removes default list bullets, margins, and padding*/
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	text-align: center;
+	padding: 0;
+	display: flex; /* Aligns list items horizontally */
+background-color: light pink;
 }
